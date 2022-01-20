@@ -19,6 +19,17 @@ def get_zweer():
     coords["line4"] = [(x, -(2 / 3) * x + 30) for x in np.arange(15, 18, 0.01)]
     coords["line5"] = [(x, -2 * x + 54) for x in np.arange(18, 19, 0.01)]
     coords["line6"] = [((y - 282) / (-14), y) for y in np.arange(14.923, 16, 0.01)]
+    coords["line7"] = [((y - 282) / (-14), y) for y in np.arange(4, 11.333, 0.01)]
+    coords["line8"] = [((y + 155) / 8, y) for y in np.arange(2, 4, 0.01)]
+
+    coords["line9"] = [((y + 155) / 8, y) for y in np.arange(2, 4, 0.01)]
+    coords["line10"] = [(19.6, y) for y in np.arange(-4, 2, 0.01)]
+    coords["line11"] = [(x, -4) for x in np.arange(4, 10, 0.01)]
+    coords["line12"] = [(10, y) for y in np.arange(-4, 1, 0.01)]
+    coords["line13"] = [(x, -4) for x in np.arange(15, 19.6, 0.01)]
+    coords["line14"] = [(15, y) for y in np.arange(-4, 1, 0.01)]
+    coords["line15"] = [(1, x) for x in np.arange(10, 15, 0.01)]
+    
 
     return coords
 
